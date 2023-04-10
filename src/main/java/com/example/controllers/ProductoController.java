@@ -41,6 +41,7 @@ import com.example.utilities.FileDownloadUtil;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
+//@Secured("ADMIN")
 @RestController
 @RequestMapping("/productos")
 @RequiredArgsConstructor
